@@ -1,0 +1,51 @@
+package day01;
+
+
+public class HelloJava {
+	public static void main(String[] args) {
+//		파스칼 표기법을 사용하기 때문에 class 의 앞글자는 대문자가 들어가야한다.
+//		이후 음절에 시작글자도 대문자로 작성한다. ex) HelloJavaWorld
+
+//		변수
+//		특정 데이터를 저장하기 위한 메모리(RAM) 공간
+//		(데이터 타입) (변수 명) = (값) ;
+//		초기값을 만들어주는게 좋다.
+//		변수명 1. 카멜식 표기법 2. 명사 형 3. 변수 명을 보고 데이터의 의미를 알수 있도록 해야한다.
+//				4. 특수기호($, _ 는 제외) 또는 숫자가 첫글자로 올수없다 ex) superManPoewr
+//				5. 되도록이면 한글로 명칭을 만들지 않는다. 6. 자바의 예약어는 쓸수 없다. ex) class, public, void...
+		
+//		데이터 타입
+//		1. 정수형 [ byte(1) -128 ~ 127 ] , [ short(2) -63 ~ 63~ ] , [ int(4) - 24억 ~ 24억 ], [ long(8) 6경 ]
+//		2. 실수형 float(4), double(8) 4바이트 4바이트 나눠서 저장한다
+//				실수형은 소숫점 표시에 문제가 생긴다 float 는 5번째 이하 자리부터 double은 15번째 이하 부터 문제가 생김
+//		3. 문자형(문자) char [ 한글자만 사용 가능하다 ex) 'A' ]
+//		4. 문자열(문장) String [ char(문자) 와다르게 ex)"AA" 로 사용한다 ] 클래스 타입형 그외 기본형 타입
+//		5. 논리형 boolean [ true / false 값을 저장한다 ]
+		
+//		정수형
+		int num01 = 10;
+		byte byNum = 20;
+	
+//		실수형
+		double doubleNum = 30.311;
+		float flNum = 33.12f;
+		
+//		문자형
+		char ch = 'A';
+		
+//		문자열
+		String str = "날씨";
+		
+//		논리형
+		boolean b = false;
+		
+//		문장이 끝나고 줄이 바뀌는 명령
+		System.out.println(num01);
+		System.out.println(byNum);
+		System.out.println(doubleNum);
+		System.out.println(ch);
+		System.out.print(str);
+		System.out.println(b);
+	
+	}
+}

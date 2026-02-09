@@ -1,0 +1,21 @@
+package studyReview;
+
+public class StudyCasting {
+	public static void main(String[] args) {
+//      "8.43" + 2.59를 더해서 10이 나오도록 출력하기
+		
+		double num1 = 0.0, num2 = 0.0;
+		int numResult = 0;
+		String result = "";
+		
+		num1 = Double.parseDouble("8.43");
+		num2 = 2.59;
+		
+		numResult = (int)(num1 + num2);
+		
+		result = "(int)(%f + %f) = (int)%f";
+		
+		System.out.println(num1);
+		System.out.println(num2);
+	}
+}
